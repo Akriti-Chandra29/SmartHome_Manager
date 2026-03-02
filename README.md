@@ -1,4 +1,4 @@
-# SmartHome_Manager
+# SmartHome Management System
 
 In a modern household, managing multiple electronic utilities(lights,AC) and critical safety sensors (smoke alarms,motion detectors) manually is inefficient and prone to human error. There is a need for a centralized,automated system that can monitor energy consumption,handle safety alerts,and provide a unified interface for the user.
 
