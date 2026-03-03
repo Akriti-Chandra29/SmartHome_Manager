@@ -51,6 +51,6 @@ void SmartHeater::showAction() {
     } else { 
         cout << "OFF" << endl; 
     }
-};
+}
 
 
