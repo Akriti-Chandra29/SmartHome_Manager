@@ -1,28 +1,28 @@
 #ifndef SMARTDEVICES_H
 #define SMARTDEVICES_H
 
+#include <string>
+
 class SmartDevice {
 protected:
-    string name;
+    std::string name; 
     int id;
 
 public:
     bool status;
 
-  
-    SmartDevice(string deviceName, int deviceId) {
+    SmartDevice(std::string deviceName, int deviceId) {
         name = deviceName;
         id = deviceId;
         status = false;
     }
 
-  
     virtual ~SmartDevice() {}
 
-    
+
     virtual void showAction() = 0;
 
-    string getName() { return name; }
+    std::string getName() { return name; }  
     int getId() { return id; }
 
     void changeStatus() {
@@ -32,4 +32,6 @@ public:
             status = true;
         }
     } 
-};
+}; 
+
+#endif 
