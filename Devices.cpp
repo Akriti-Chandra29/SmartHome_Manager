@@ -1,12 +1,14 @@
 #include "Devices.h"
+#include <iostream>  
+using namespace std;
+
 
 // 1. Smart Light
 void SmartLight::showAction() {
     cout << name << " is ";
-    if (status == true) { 
+    if (status) { 
         cout << "ON" << endl; 
-    }
-    if (status == false) { 
+    } else { 
         cout << "OFF" << endl; 
     }
 }
@@ -14,10 +16,9 @@ void SmartLight::showAction() {
 // 2. Smart Fan
 void SmartFan::showAction() {
     cout << name << " is ";
-    if (status == true) { 
+    if (status) { 
         cout << "ON" << endl; 
-    }
-    if (status == false) { 
+    } else { 
         cout << "OFF" << endl; 
     }
 }
@@ -25,10 +26,9 @@ void SmartFan::showAction() {
 // 3. Smart AC
 void SmartAC::showAction() {
     cout << name << " is ";
-    if (status == true) { 
+    if (status) { 
         cout << "ON" << endl; 
-    }
-    if (status == false) { 
+    } else { 
         cout << "OFF" << endl; 
     }
 }
@@ -36,10 +36,9 @@ void SmartAC::showAction() {
 // 4. Smart Camera
 void SmartCamera::showAction() {
     cout << name << " is ";
-    if (status == true) { 
+    if (status) { 
         cout << "ON" << endl; 
-    }
-    if (status == false) { 
+    } else { 
         cout << "OFF" << endl; 
     }
 }
@@ -47,11 +46,11 @@ void SmartCamera::showAction() {
 // 5. Smart Heater
 void SmartHeater::showAction() {
     cout << name << " is ";
-    if (status == true) { 
+    if (status) { 
         cout << "ON" << endl; 
-    }
-    if (status == false) { 
+    } else { 
         cout << "OFF" << endl; 
     }
-}
+};
+
 
