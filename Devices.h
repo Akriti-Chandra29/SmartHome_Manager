@@ -3,6 +3,7 @@
 #define DEVICES_H
 
 #include "SmartDevices.h"
+#include <string>
 
 class SmartLight : public SmartDevice {
 public:
@@ -37,3 +38,4 @@ public:
     SmartHeater(string n, int i) : SmartDevice(n, i) {}
     void showAction() override;
 };
+#endif
