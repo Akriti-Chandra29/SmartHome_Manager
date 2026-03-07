@@ -11,6 +11,7 @@ public:
     void showAction() override; 
 };
 
+
 // 2. Smart Fan
 class SmartFan : public SmartDevice {
 public:
