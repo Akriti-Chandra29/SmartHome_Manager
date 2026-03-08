@@ -3,7 +3,8 @@
 
 #include <string>
 
-class SmartDevice {
+class SmartDevice 
+{
 protected:
     std::string name; 
     int id;
@@ -11,13 +12,14 @@ protected:
 public:
     bool status;
 
-    SmartDevice(std::string deviceName, int deviceId) {
+    SmartDevice(std::string deviceName, int deviceId) 
+    {
         name = deviceName;
         id = deviceId;
         status = false;
     }
 
-    virtual ~SmartDevice() {}
+    virtual ~SmartDevice(){}
 
 
     virtual void showAction() = 0;
