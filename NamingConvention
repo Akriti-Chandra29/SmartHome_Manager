@@ -1,1 +1,33 @@
+File Naming:
+All header files are writtern in lowercase.
+Example:device.h,room.h,smartHome.h
+Source files use the same names as header files.
+Example:device.cpp,room.cpp,smartHome.cpp
 
+Class Naming:
+Class names start with a capital letter.
+Each word in class name starts with capital(PascalCase)
+Example:Device, Room, SmartHome, Light, Fan, AC.
+
+Variable Naming:
+Variables are written in camelCase.
+First letter is small, next words start with capital.
+Example: deviceCount, roomName, speed, temperature
+
+Function Naming:
+Function names are also written in camelCase.
+Example: turnOn(), turnOff(), showStatus(), addDevice()
+
+Constant Naming:
+Constants are written in uppercase letters.
+Example:MAX_DEVICES, MAX_ROOMS
+
+Object Naming:
+Object names are kept small and meaningful.
+Example:living, bedroom, kitchen, home
+
+General Rules:
+Meaningful and simple names are used.
+Same naming style is followed throughout the project.
+No unnecessary complex names are used.
+Code readibility is maintained.
